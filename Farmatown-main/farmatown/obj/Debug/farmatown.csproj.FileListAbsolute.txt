@@ -1,0 +1,296 @@
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\bin\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.Forms.FrmPrincipal.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\farmatown\farmatown\obj\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\bin\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.exe
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.pdb
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+C:\Users\Francisco\Desktop\farmatown\REPOSITORIO FARMATOWN\Farmatown\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\bin\Debug\farmatown.exe
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\bin\Debug\farmatown.pdb
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.exe
+C:\Users\gonza\Downloads\farmatown\Farmatown-main\farmatown\obj\Debug\farmatown.pdb
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\farmatown.exe.config
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\farmatown.exe
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\farmatown.pdb
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\EnvDTE.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\stdole.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.SuggestedBindingRedirects.cache
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.FrmLogin.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CopyComplete
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.exe
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.pdb
+D:\ROCCO 2022\FACU\CUATRI_2\MSI\tpi\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmReportes.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\farmatown.exe
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\farmatown.pdb
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\EnvDTE.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\stdole.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmReportes.resources
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CopyComplete
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.exe
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.pdb
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\RdlCompile.cache
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\RdlCompile.compiled
+C:\Users\Usuario\Documents\Gasty\Facu\Tecnicatura\MSI\Farma 3.0\Farmatown-main\farmatown\obj\Debug\farmatown.csprojAssemblyReference.cache
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\farmatown.exe.config
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\farmatown.exe
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\farmatown.pdb
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\EnvDTE.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\stdole.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\Microsoft.MSXML.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.AssemblyReference.cache
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmLotes.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarArticulo.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmModificarCliente.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoLote.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevoUsuario.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmArticulos.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmClientes.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmDetalles.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmFacturas.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.FrmLogin.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmNuevaFactura.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmPrincipal.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Properties.Resources.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmReportes.resources
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.GenerateResource.cache
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\RdlCompile.cache
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\RdlCompile.compiled
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CoreCompileInputs.cache
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.csproj.CopyComplete
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.exe
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.pdb
+C:\Users\gonza\Documents\GitHub\2022_TUP_2W1_TPI_03\Farmatown-main\farmatown\obj\Debug\farmatown.Vistas.FrmInformacion.resources

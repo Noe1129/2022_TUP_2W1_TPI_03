@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="farmatown3DataSet" targetNamespace="http://tempuri.org/farmatown3DataSet.xsd" xmlns:mstns="http://tempuri.org/farmatown3DataSet.xsd" xmlns="http://tempuri.org/farmatown3DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="farmatown3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="farmatown3ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.farmatown.Properties.Settings.GlobalReference.Default.farmatown3ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="articulosVendidosTableAdapter" GeneratorDataComponentClassName="articulosVendidosTableAdapter" Name="articulosVendidos" UserDataComponentName="articulosVendidosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.articulosVendidos" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Articulo, Cantidad_vendida, Mes, Año FROM dbo.articulosVendidos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Articulo" DataSetColumn="Articulo" />
+              <Mapping SourceColumn="Cantidad_vendida" DataSetColumn="Cantidad_vendida" />
+              <Mapping SourceColumn="Mes" DataSetColumn="Mes" />
+              <Mapping SourceColumn="Año" DataSetColumn="Año" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clientes_frecuentesTableAdapter" GeneratorDataComponentClassName="clientes_frecuentesTableAdapter" Name="clientes_frecuentes" UserDataComponentName="clientes_frecuentesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.clientes_frecuentes" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Nombre, Compras_totales FROM dbo.clientes_frecuentes</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="Compras_totales" DataSetColumn="Compras_totales" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_ARTICULOS_COMBO_BOXTableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_ARTICULOS_COMBO_BOXTableAdapter" Name="SP_CONSULTAR_ARTICULOS_COMBO_BOX" UserDataComponentName="SP_CONSULTAR_ARTICULOS_COMBO_BOXTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_ARTICULOS_COMBO_BOX" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_ARTICULOS_COMBO_BOX</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idArticulo" DataSetColumn="idArticulo" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="idTipoArticulo" DataSetColumn="idTipoArticulo" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="precioUnitario" DataSetColumn="precioUnitario" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_ARTICULOS_GRILLATableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_ARTICULOS_GRILLATableAdapter" Name="SP_CONSULTAR_ARTICULOS_GRILLA" UserDataComponentName="SP_CONSULTAR_ARTICULOS_GRILLATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_ARTICULOS_GRILLA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_ARTICULOS_GRILLA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idArticulo" DataSetColumn="idArticulo" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="idTipoArticulo" DataSetColumn="idTipoArticulo" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="precioUnitario" DataSetColumn="precioUnitario" />
+              <Mapping SourceColumn="stock" DataSetColumn="stock" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_ARTICULOS_POR_NOMBRETableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_ARTICULOS_POR_NOMBRETableAdapter" Name="SP_CONSULTAR_ARTICULOS_POR_NOMBRE" UserDataComponentName="SP_CONSULTAR_ARTICULOS_POR_NOMBRETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_ARTICULOS_POR_NOMBRE" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_ARTICULOS_POR_NOMBRE</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@nombre" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idArticulo" DataSetColumn="idArticulo" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+              <Mapping SourceColumn="precioUnitario" DataSetColumn="precioUnitario" />
+              <Mapping SourceColumn="stock" DataSetColumn="stock" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_CLIENTESTableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_CLIENTESTableAdapter" Name="SP_CONSULTAR_CLIENTES" UserDataComponentName="SP_CONSULTAR_CLIENTESTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_CLIENTES" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_CLIENTES</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="dni" DataSetColumn="dni" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_CLIENTES_CON_TARJETATableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_CLIENTES_CON_TARJETATableAdapter" Name="SP_CONSULTAR_CLIENTES_CON_TARJETA" UserDataComponentName="SP_CONSULTAR_CLIENTES_CON_TARJETATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_CLIENTES_CON_TARJETA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_CLIENTES_CON_TARJETA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="dni" DataSetColumn="dni" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+              <Mapping SourceColumn="nro_tarjeta" DataSetColumn="nro_tarjeta" />
+              <Mapping SourceColumn="cod_seguridad" DataSetColumn="cod_seguridad" />
+              <Mapping SourceColumn="fecha_venc" DataSetColumn="fecha_venc" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_CLIENTES_POR_DNITableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_CLIENTES_POR_DNITableAdapter" Name="SP_CONSULTAR_CLIENTES_POR_DNI" UserDataComponentName="SP_CONSULTAR_CLIENTES_POR_DNITableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_CLIENTES_POR_DNI" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_CLIENTES_POR_DNI</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@DNI" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="dni" DataSetColumn="dni" />
+              <Mapping SourceColumn="telefono" DataSetColumn="telefono" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_DETALLES_POR_ID_FACTURATableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_DETALLES_POR_ID_FACTURATableAdapter" Name="SP_CONSULTAR_DETALLES_POR_ID_FACTURA" UserDataComponentName="SP_CONSULTAR_DETALLES_POR_ID_FACTURATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_DETALLES_POR_ID_FACTURA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_DETALLES_POR_ID_FACTURA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idDetalle" DataSetColumn="idDetalle" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="cantidad" DataSetColumn="cantidad" />
+              <Mapping SourceColumn="precio" DataSetColumn="precio" />
+              <Mapping SourceColumn="montoDescontado" DataSetColumn="montoDescontado" />
+              <Mapping SourceColumn="subtotal" DataSetColumn="subtotal" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_FACTURA_POR_FECHATableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_FACTURA_POR_FECHATableAdapter" Name="SP_CONSULTAR_FACTURA_POR_FECHA" UserDataComponentName="SP_CONSULTAR_FACTURA_POR_FECHATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_FACTURA_POR_FECHA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_FACTURA_POR_FECHA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@fechaDesde" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@fechaHasta" Precision="23" ProviderType="DateTime" Scale="3" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idFactura" DataSetColumn="idFactura" />
+              <Mapping SourceColumn="Cliente" DataSetColumn="Cliente" />
+              <Mapping SourceColumn="fecha" DataSetColumn="fecha" />
+              <Mapping SourceColumn="total" DataSetColumn="total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_FACTURASTableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_FACTURASTableAdapter" Name="SP_CONSULTAR_FACTURAS" UserDataComponentName="SP_CONSULTAR_FACTURASTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_FACTURAS" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_FACTURAS</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idFactura" DataSetColumn="idFactura" />
+              <Mapping SourceColumn="Nombre" DataSetColumn="Nombre" />
+              <Mapping SourceColumn="fecha" DataSetColumn="fecha" />
+              <Mapping SourceColumn="total" DataSetColumn="total" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXTableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXTableAdapter" Name="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" UserDataComponentName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idTipoArticulo" DataSetColumn="idTipoArticulo" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXTableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXTableAdapter" Name="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" UserDataComponentName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idTipoUsuario" DataSetColumn="idTipoUsuario" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_CONSULTAR_USUARIOS_GRILLATableAdapter" GeneratorDataComponentClassName="SP_CONSULTAR_USUARIOS_GRILLATableAdapter" Name="SP_CONSULTAR_USUARIOS_GRILLA" UserDataComponentName="SP_CONSULTAR_USUARIOS_GRILLATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_USUARIOS_GRILLA" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_CONSULTAR_USUARIOS_GRILLA</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idUsuario" DataSetColumn="idUsuario" />
+              <Mapping SourceColumn="nombre" DataSetColumn="nombre" />
+              <Mapping SourceColumn="apellido" DataSetColumn="apellido" />
+              <Mapping SourceColumn="descripcion" DataSetColumn="descripcion" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_OBTENER_DATOS_USUARIOTableAdapter" GeneratorDataComponentClassName="SP_OBTENER_DATOS_USUARIOTableAdapter" Name="SP_OBTENER_DATOS_USUARIO" UserDataComponentName="SP_OBTENER_DATOS_USUARIOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_OBTENER_DATOS_USUARIO" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_OBTENER_DATOS_USUARIO</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@usuario" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@contraseña" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="InputOutput" ParameterName="@idUsuario" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="InputOutput" ParameterName="@nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="InputOutput" ParameterName="@apellido" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="InputOutput" ParameterName="@tipoUsuario" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="usuario" DataSetColumn="usuario" />
+              <Mapping SourceColumn="pwd" DataSetColumn="pwd" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SP_VERIFICAR_LOGINTableAdapter" GeneratorDataComponentClassName="SP_VERIFICAR_LOGINTableAdapter" Name="SP_VERIFICAR_LOGIN" UserDataComponentName="SP_VERIFICAR_LOGINTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_VERIFICAR_LOGIN" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.SP_VERIFICAR_LOGIN</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@usuario" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@contraseña" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="usuario" DataSetColumn="usuario" />
+              <Mapping SourceColumn="pwd" DataSetColumn="pwd" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="facturasObraSocialTableAdapter" GeneratorDataComponentClassName="facturasObraSocialTableAdapter" Name="facturasObraSocial" UserDataComponentName="facturasObraSocialTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.facturasObraSocial" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from facturasObraSocial</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Cantidad_Con_OS" DataSetColumn="Cantidad_Con_OS" />
+              <Mapping SourceColumn="Cantidad_Sin_OS" DataSetColumn="Cantidad_Sin_OS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CONSULTAR_STOCK" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_CONSULTAR_STOCK" MethodsParameterType="CLR" Modifier="Public" Name="SP_CONSULTAR_STOCK" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="SP_CONSULTAR_STOCK">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_CONSULTAR_STOCK</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="InputOutput" ParameterName="@stock" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_CREAR_USUARIO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_CREAR_USUARIO" MethodsParameterType="CLR" Modifier="Public" Name="SP_CREAR_USUARIO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="SP_CREAR_USUARIO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_CREAR_USUARIO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@nombreReal" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@apellido" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@username" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@password" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@tipoUsuario" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_ELIMINAR_ARTICULO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_ELIMINAR_ARTICULO" MethodsParameterType="CLR" Modifier="Public" Name="SP_ELIMINAR_ARTICULO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="SP_ELIMINAR_ARTICULO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_ELIMINAR_ARTICULO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_ELIMINAR_DETALLE" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_ELIMINAR_DETALLE" MethodsParameterType="CLR" Modifier="Public" Name="SP_ELIMINAR_DETALLE" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="SP_ELIMINAR_DETALLE">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_ELIMINAR_DETALLE</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idDetalle" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_ELIMINAR_DETALLES" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_ELIMINAR_DETALLES" MethodsParameterType="CLR" Modifier="Public" Name="SP_ELIMINAR_DETALLES" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="SP_ELIMINAR_DETALLES">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_ELIMINAR_DETALLES</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idDetalle" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_ELIMINAR_FACTURA" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_ELIMINAR_FACTURA" MethodsParameterType="CLR" Modifier="Public" Name="SP_ELIMINAR_FACTURA" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="SP_ELIMINAR_FACTURA">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_ELIMINAR_FACTURA</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_ELIMINAR_USUARIO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_ELIMINAR_USUARIO" MethodsParameterType="CLR" Modifier="Public" Name="SP_ELIMINAR_USUARIO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy6" UserSourceName="SP_ELIMINAR_USUARIO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_ELIMINAR_USUARIO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idUsuario" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_INSERTAR_ARTICULO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_INSERTAR_ARTICULO" MethodsParameterType="CLR" Modifier="Public" Name="SP_INSERTAR_ARTICULO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy7" UserSourceName="SP_INSERTAR_ARTICULO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_INSERTAR_ARTICULO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@nombreArticulo" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@stock" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="decimal" DbType="Decimal" Direction="Input" ParameterName="@precio" Precision="10" ProviderType="Decimal" Scale="2" Size="9" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@tipoArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_INSERTAR_CLIENTE" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_INSERTAR_CLIENTE" MethodsParameterType="CLR" Modifier="Public" Name="SP_INSERTAR_CLIENTE" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy8" UserSourceName="SP_INSERTAR_CLIENTE">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_INSERTAR_CLIENTE</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@DNI" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@nom_cliente" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@ape_cliente" Precision="0" ProviderType="NVarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@telefono" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_INSERTAR_DETALLE_FACTURA" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_INSERTAR_DETALLE_FACTURA" MethodsParameterType="CLR" Modifier="Public" Name="SP_INSERTAR_DETALLE_FACTURA" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy9" UserSourceName="SP_INSERTAR_DETALLE_FACTURA">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_INSERTAR_DETALLE_FACTURA</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idFactura" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@cantidad" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@descuento" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="decimal" DbType="Decimal" Direction="Input" ParameterName="@montoDescontado" Precision="10" ProviderType="Decimal" Scale="2" Size="9" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="decimal" DbType="Decimal" Direction="Input" ParameterName="@subtotal" Precision="10" ProviderType="Decimal" Scale="2" Size="9" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="decimal" DbType="Decimal" Direction="Input" ParameterName="@precio" Precision="10" ProviderType="Decimal" Scale="2" Size="9" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_INSERTAR_MAESTRO_FACTURA" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_INSERTAR_MAESTRO_FACTURA" MethodsParameterType="CLR" Modifier="Public" Name="SP_INSERTAR_MAESTRO_FACTURA" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy10" UserSourceName="SP_INSERTAR_MAESTRO_FACTURA">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_INSERTAR_MAESTRO_FACTURA</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="money" DbType="Currency" Direction="Input" ParameterName="@total" Precision="19" ProviderType="Money" Scale="4" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bit" DbType="Boolean" Direction="Input" ParameterName="@tieneObraSocial" Precision="1" ProviderType="Bit" Scale="0" Size="1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@dniCliente" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idUsuario" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bit" DbType="Boolean" Direction="Input" ParameterName="@tipoPago" Precision="1" ProviderType="Bit" Scale="0" Size="1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="InputOutput" ParameterName="@idFactura" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_INSERTAR_TARJETA" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_INSERTAR_TARJETA" MethodsParameterType="CLR" Modifier="Public" Name="SP_INSERTAR_TARJETA" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy11" UserSourceName="SP_INSERTAR_TARJETA">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_INSERTAR_TARJETA</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@nro_tarjeta" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@cod_seguridad" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="date" DbType="Date" Direction="Input" ParameterName="@fecha_venc" Precision="10" ProviderType="Date" Scale="0" Size="3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@dni" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_MODIFICAR_ARTICULO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_MODIFICAR_ARTICULO" MethodsParameterType="CLR" Modifier="Public" Name="SP_MODIFICAR_ARTICULO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy12" UserSourceName="SP_MODIFICAR_ARTICULO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_MODIFICAR_ARTICULO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@nombre" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@stock" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="decimal" DbType="Decimal" Direction="Input" ParameterName="@precio" Precision="10" ProviderType="Decimal" Scale="2" Size="9" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@idTipoArticulo" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_MODIFICAR_CLIENTE" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_MODIFICAR_CLIENTE" MethodsParameterType="CLR" Modifier="Public" Name="SP_MODIFICAR_CLIENTE" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy13" UserSourceName="SP_MODIFICAR_CLIENTE">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_MODIFICAR_CLIENTE</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@DNI" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@nombreCliente" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@apellidoCliente" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@telefono" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="farmatown3ConnectionString (Settings)" DbObjectName="farmatown3.dbo.SP_PROXIMA_FACTURA" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_PROXIMA_FACTURA" MethodsParameterType="CLR" Modifier="Public" Name="SP_PROXIMA_FACTURA" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy14" UserSourceName="SP_PROXIMA_FACTURA">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.SP_PROXIMA_FACTURA</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="InputOutput" ParameterName="@next" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="farmatown3DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="farmatown3DataSet" msprop:Generator_UserDSName="farmatown3DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="articulosVendidos" msprop:Generator_TableClassName="articulosVendidosDataTable" msprop:Generator_TableVarName="tablearticulosVendidos" msprop:Generator_RowChangedName="articulosVendidosRowChanged" msprop:Generator_TablePropName="articulosVendidos" msprop:Generator_RowDeletingName="articulosVendidosRowDeleting" msprop:Generator_RowChangingName="articulosVendidosRowChanging" msprop:Generator_RowEvHandlerName="articulosVendidosRowChangeEventHandler" msprop:Generator_RowDeletedName="articulosVendidosRowDeleted" msprop:Generator_RowClassName="articulosVendidosRow" msprop:Generator_UserTableName="articulosVendidos" msprop:Generator_RowEvArgName="articulosVendidosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Articulo" msprop:Generator_ColumnVarNameInTable="columnArticulo" msprop:Generator_ColumnPropNameInRow="Articulo" msprop:Generator_ColumnPropNameInTable="ArticuloColumn" msprop:Generator_UserColumnName="Articulo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad_vendida" msprop:Generator_ColumnVarNameInTable="columnCantidad_vendida" msprop:Generator_ColumnPropNameInRow="Cantidad_vendida" msprop:Generator_ColumnPropNameInTable="Cantidad_vendidaColumn" msprop:Generator_UserColumnName="Cantidad_vendida" type="xs:int" minOccurs="0" />
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:int" minOccurs="0" />
+              <xs:element name="Año" msprop:Generator_ColumnVarNameInTable="columnAño" msprop:Generator_ColumnPropNameInRow="Año" msprop:Generator_ColumnPropNameInTable="AñoColumn" msprop:Generator_UserColumnName="Año" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="clientes_frecuentes" msprop:Generator_TableClassName="clientes_frecuentesDataTable" msprop:Generator_TableVarName="tableclientes_frecuentes" msprop:Generator_RowChangedName="clientes_frecuentesRowChanged" msprop:Generator_TablePropName="clientes_frecuentes" msprop:Generator_RowDeletingName="clientes_frecuentesRowDeleting" msprop:Generator_RowChangingName="clientes_frecuentesRowChanging" msprop:Generator_RowEvHandlerName="clientes_frecuentesRowChangeEventHandler" msprop:Generator_RowDeletedName="clientes_frecuentesRowDeleted" msprop:Generator_RowClassName="clientes_frecuentesRow" msprop:Generator_UserTableName="clientes_frecuentes" msprop:Generator_RowEvArgName="clientes_frecuentesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nombre" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="41" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Compras_totales" msprop:Generator_ColumnVarNameInTable="columnCompras_totales" msprop:Generator_ColumnPropNameInRow="Compras_totales" msprop:Generator_ColumnPropNameInTable="Compras_totalesColumn" msprop:Generator_UserColumnName="Compras_totales" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_ARTICULOS_COMBO_BOX" msprop:Generator_TableClassName="SP_CONSULTAR_ARTICULOS_COMBO_BOXDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_ARTICULOS_COMBO_BOX" msprop:Generator_RowChangedName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_ARTICULOS_COMBO_BOX" msprop:Generator_RowDeletingName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRow" msprop:Generator_UserTableName="SP_CONSULTAR_ARTICULOS_COMBO_BOX" msprop:Generator_RowEvArgName="SP_CONSULTAR_ARTICULOS_COMBO_BOXRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidArticulo" msprop:Generator_ColumnPropNameInRow="idArticulo" msprop:Generator_ColumnPropNameInTable="idArticuloColumn" msprop:Generator_UserColumnName="idArticulo" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idTipoArticulo" msprop:Generator_ColumnVarNameInTable="columnidTipoArticulo" msprop:Generator_ColumnPropNameInRow="idTipoArticulo" msprop:Generator_ColumnPropNameInTable="idTipoArticuloColumn" msprop:Generator_UserColumnName="idTipoArticulo" type="xs:int" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="precioUnitario" msprop:Generator_ColumnVarNameInTable="columnprecioUnitario" msprop:Generator_ColumnPropNameInRow="precioUnitario" msprop:Generator_ColumnPropNameInTable="precioUnitarioColumn" msprop:Generator_UserColumnName="precioUnitario" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_ARTICULOS_GRILLA" msprop:Generator_TableClassName="SP_CONSULTAR_ARTICULOS_GRILLADataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_ARTICULOS_GRILLA" msprop:Generator_RowChangedName="SP_CONSULTAR_ARTICULOS_GRILLARowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_ARTICULOS_GRILLA" msprop:Generator_RowDeletingName="SP_CONSULTAR_ARTICULOS_GRILLARowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_ARTICULOS_GRILLARowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_ARTICULOS_GRILLARowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_ARTICULOS_GRILLARowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_ARTICULOS_GRILLARow" msprop:Generator_UserTableName="SP_CONSULTAR_ARTICULOS_GRILLA" msprop:Generator_RowEvArgName="SP_CONSULTAR_ARTICULOS_GRILLARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidArticulo" msprop:Generator_ColumnPropNameInRow="idArticulo" msprop:Generator_ColumnPropNameInTable="idArticuloColumn" msprop:Generator_UserColumnName="idArticulo" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="idTipoArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidTipoArticulo" msprop:Generator_ColumnPropNameInRow="idTipoArticulo" msprop:Generator_ColumnPropNameInTable="idTipoArticuloColumn" msprop:Generator_UserColumnName="idTipoArticulo" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="precioUnitario" msprop:Generator_ColumnVarNameInTable="columnprecioUnitario" msprop:Generator_ColumnPropNameInRow="precioUnitario" msprop:Generator_ColumnPropNameInTable="precioUnitarioColumn" msprop:Generator_UserColumnName="precioUnitario" type="xs:decimal" minOccurs="0" />
+              <xs:element name="stock" msprop:Generator_ColumnVarNameInTable="columnstock" msprop:Generator_ColumnPropNameInRow="stock" msprop:Generator_ColumnPropNameInTable="stockColumn" msprop:Generator_UserColumnName="stock" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_ARTICULOS_POR_NOMBRE" msprop:Generator_TableClassName="SP_CONSULTAR_ARTICULOS_POR_NOMBREDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_ARTICULOS_POR_NOMBRE" msprop:Generator_RowChangedName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_ARTICULOS_POR_NOMBRE" msprop:Generator_RowDeletingName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERow" msprop:Generator_UserTableName="SP_CONSULTAR_ARTICULOS_POR_NOMBRE" msprop:Generator_RowEvArgName="SP_CONSULTAR_ARTICULOS_POR_NOMBRERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidArticulo" msprop:Generator_ColumnPropNameInRow="idArticulo" msprop:Generator_ColumnPropNameInTable="idArticuloColumn" msprop:Generator_UserColumnName="idArticulo" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="precioUnitario" msprop:Generator_ColumnVarNameInTable="columnprecioUnitario" msprop:Generator_ColumnPropNameInRow="precioUnitario" msprop:Generator_ColumnPropNameInTable="precioUnitarioColumn" msprop:Generator_UserColumnName="precioUnitario" type="xs:decimal" minOccurs="0" />
+              <xs:element name="stock" msprop:Generator_ColumnVarNameInTable="columnstock" msprop:Generator_ColumnPropNameInRow="stock" msprop:Generator_ColumnPropNameInTable="stockColumn" msprop:Generator_UserColumnName="stock" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_CLIENTES" msprop:Generator_TableClassName="SP_CONSULTAR_CLIENTESDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_CLIENTES" msprop:Generator_RowChangedName="SP_CONSULTAR_CLIENTESRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_CLIENTES" msprop:Generator_RowDeletingName="SP_CONSULTAR_CLIENTESRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_CLIENTESRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_CLIENTESRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_CLIENTESRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_CLIENTESRow" msprop:Generator_UserTableName="SP_CONSULTAR_CLIENTES" msprop:Generator_RowEvArgName="SP_CONSULTAR_CLIENTESRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dni" msprop:Generator_ColumnVarNameInTable="columndni" msprop:Generator_ColumnPropNameInRow="dni" msprop:Generator_ColumnPropNameInTable="dniColumn" msprop:Generator_UserColumnName="dni" type="xs:long" />
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_CLIENTES_CON_TARJETA" msprop:Generator_TableClassName="SP_CONSULTAR_CLIENTES_CON_TARJETADataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_CLIENTES_CON_TARJETA" msprop:Generator_RowChangedName="SP_CONSULTAR_CLIENTES_CON_TARJETARowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_CLIENTES_CON_TARJETA" msprop:Generator_RowDeletingName="SP_CONSULTAR_CLIENTES_CON_TARJETARowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_CLIENTES_CON_TARJETARowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_CLIENTES_CON_TARJETARowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_CLIENTES_CON_TARJETARowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_CLIENTES_CON_TARJETARow" msprop:Generator_UserTableName="SP_CONSULTAR_CLIENTES_CON_TARJETA" msprop:Generator_RowEvArgName="SP_CONSULTAR_CLIENTES_CON_TARJETARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dni" msprop:Generator_ColumnVarNameInTable="columndni" msprop:Generator_ColumnPropNameInRow="dni" msprop:Generator_ColumnPropNameInTable="dniColumn" msprop:Generator_UserColumnName="dni" type="xs:long" />
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" type="xs:long" minOccurs="0" />
+              <xs:element name="nro_tarjeta" msprop:Generator_ColumnVarNameInTable="columnnro_tarjeta" msprop:Generator_ColumnPropNameInRow="nro_tarjeta" msprop:Generator_ColumnPropNameInTable="nro_tarjetaColumn" msprop:Generator_UserColumnName="nro_tarjeta" type="xs:long" minOccurs="0" />
+              <xs:element name="cod_seguridad" msprop:Generator_ColumnVarNameInTable="columncod_seguridad" msprop:Generator_ColumnPropNameInRow="cod_seguridad" msprop:Generator_ColumnPropNameInTable="cod_seguridadColumn" msprop:Generator_UserColumnName="cod_seguridad" type="xs:int" minOccurs="0" />
+              <xs:element name="fecha_venc" msprop:Generator_ColumnVarNameInTable="columnfecha_venc" msprop:Generator_ColumnPropNameInRow="fecha_venc" msprop:Generator_ColumnPropNameInTable="fecha_vencColumn" msprop:Generator_UserColumnName="fecha_venc" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_CLIENTES_POR_DNI" msprop:Generator_TableClassName="SP_CONSULTAR_CLIENTES_POR_DNIDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_CLIENTES_POR_DNI" msprop:Generator_RowChangedName="SP_CONSULTAR_CLIENTES_POR_DNIRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_CLIENTES_POR_DNI" msprop:Generator_RowDeletingName="SP_CONSULTAR_CLIENTES_POR_DNIRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_CLIENTES_POR_DNIRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_CLIENTES_POR_DNIRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_CLIENTES_POR_DNIRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_CLIENTES_POR_DNIRow" msprop:Generator_UserTableName="SP_CONSULTAR_CLIENTES_POR_DNI" msprop:Generator_RowEvArgName="SP_CONSULTAR_CLIENTES_POR_DNIRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dni" msprop:Generator_ColumnVarNameInTable="columndni" msprop:Generator_ColumnPropNameInRow="dni" msprop:Generator_ColumnPropNameInTable="dniColumn" msprop:Generator_UserColumnName="dni" type="xs:long" />
+              <xs:element name="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_UserColumnName="telefono" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_DETALLES_POR_ID_FACTURA" msprop:Generator_TableClassName="SP_CONSULTAR_DETALLES_POR_ID_FACTURADataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_DETALLES_POR_ID_FACTURA" msprop:Generator_RowChangedName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_DETALLES_POR_ID_FACTURA" msprop:Generator_RowDeletingName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARow" msprop:Generator_UserTableName="SP_CONSULTAR_DETALLES_POR_ID_FACTURA" msprop:Generator_RowEvArgName="SP_CONSULTAR_DETALLES_POR_ID_FACTURARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idDetalle" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidDetalle" msprop:Generator_ColumnPropNameInRow="idDetalle" msprop:Generator_ColumnPropNameInTable="idDetalleColumn" msprop:Generator_UserColumnName="idDetalle" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="precio" msprop:Generator_ColumnVarNameInTable="columnprecio" msprop:Generator_ColumnPropNameInRow="precio" msprop:Generator_ColumnPropNameInTable="precioColumn" msprop:Generator_UserColumnName="precio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="montoDescontado" msprop:Generator_ColumnVarNameInTable="columnmontoDescontado" msprop:Generator_ColumnPropNameInRow="montoDescontado" msprop:Generator_ColumnPropNameInTable="montoDescontadoColumn" msprop:Generator_UserColumnName="montoDescontado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="subtotal" msprop:Generator_ColumnVarNameInTable="columnsubtotal" msprop:Generator_ColumnPropNameInRow="subtotal" msprop:Generator_ColumnPropNameInTable="subtotalColumn" msprop:Generator_UserColumnName="subtotal" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_FACTURA_POR_FECHA" msprop:Generator_TableClassName="SP_CONSULTAR_FACTURA_POR_FECHADataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_FACTURA_POR_FECHA" msprop:Generator_RowChangedName="SP_CONSULTAR_FACTURA_POR_FECHARowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_FACTURA_POR_FECHA" msprop:Generator_RowDeletingName="SP_CONSULTAR_FACTURA_POR_FECHARowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_FACTURA_POR_FECHARowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_FACTURA_POR_FECHARowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_FACTURA_POR_FECHARowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_FACTURA_POR_FECHARow" msprop:Generator_UserTableName="SP_CONSULTAR_FACTURA_POR_FECHA" msprop:Generator_RowEvArgName="SP_CONSULTAR_FACTURA_POR_FECHARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idFactura" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidFactura" msprop:Generator_ColumnPropNameInRow="idFactura" msprop:Generator_ColumnPropNameInTable="idFacturaColumn" msprop:Generator_UserColumnName="idFactura" type="xs:int" />
+              <xs:element name="Cliente" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCliente" msprop:Generator_ColumnPropNameInRow="Cliente" msprop:Generator_ColumnPropNameInTable="ClienteColumn" msprop:Generator_UserColumnName="Cliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="41" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_FACTURAS" msprop:Generator_TableClassName="SP_CONSULTAR_FACTURASDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_FACTURAS" msprop:Generator_RowChangedName="SP_CONSULTAR_FACTURASRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_FACTURAS" msprop:Generator_RowDeletingName="SP_CONSULTAR_FACTURASRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_FACTURASRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_FACTURASRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_FACTURASRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_FACTURASRow" msprop:Generator_UserTableName="SP_CONSULTAR_FACTURAS" msprop:Generator_RowEvArgName="SP_CONSULTAR_FACTURASRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idFactura" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidFactura" msprop:Generator_ColumnPropNameInRow="idFactura" msprop:Generator_ColumnPropNameInTable="idFacturaColumn" msprop:Generator_UserColumnName="idFactura" type="xs:int" />
+              <xs:element name="Nombre" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="41" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha" msprop:Generator_ColumnVarNameInTable="columnfecha" msprop:Generator_ColumnPropNameInRow="fecha" msprop:Generator_ColumnPropNameInTable="fechaColumn" msprop:Generator_UserColumnName="fecha" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" msprop:Generator_TableClassName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" msprop:Generator_RowChangedName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" msprop:Generator_RowDeletingName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRow" msprop:Generator_UserTableName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" msprop:Generator_RowEvArgName="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOXRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idTipoArticulo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidTipoArticulo" msprop:Generator_ColumnPropNameInRow="idTipoArticulo" msprop:Generator_ColumnPropNameInTable="idTipoArticuloColumn" msprop:Generator_UserColumnName="idTipoArticulo" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" msprop:Generator_TableClassName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXDataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" msprop:Generator_RowChangedName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" msprop:Generator_RowDeletingName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRow" msprop:Generator_UserTableName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" msprop:Generator_RowEvArgName="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOXRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idTipoUsuario" msprop:Generator_ColumnVarNameInTable="columnidTipoUsuario" msprop:Generator_ColumnPropNameInRow="idTipoUsuario" msprop:Generator_ColumnPropNameInTable="idTipoUsuarioColumn" msprop:Generator_UserColumnName="idTipoUsuario" type="xs:int" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_CONSULTAR_USUARIOS_GRILLA" msprop:Generator_TableClassName="SP_CONSULTAR_USUARIOS_GRILLADataTable" msprop:Generator_TableVarName="tableSP_CONSULTAR_USUARIOS_GRILLA" msprop:Generator_RowChangedName="SP_CONSULTAR_USUARIOS_GRILLARowChanged" msprop:Generator_TablePropName="SP_CONSULTAR_USUARIOS_GRILLA" msprop:Generator_RowDeletingName="SP_CONSULTAR_USUARIOS_GRILLARowDeleting" msprop:Generator_RowChangingName="SP_CONSULTAR_USUARIOS_GRILLARowChanging" msprop:Generator_RowEvHandlerName="SP_CONSULTAR_USUARIOS_GRILLARowChangeEventHandler" msprop:Generator_RowDeletedName="SP_CONSULTAR_USUARIOS_GRILLARowDeleted" msprop:Generator_RowClassName="SP_CONSULTAR_USUARIOS_GRILLARow" msprop:Generator_UserTableName="SP_CONSULTAR_USUARIOS_GRILLA" msprop:Generator_RowEvArgName="SP_CONSULTAR_USUARIOS_GRILLARowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idUsuario" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnidUsuario" msprop:Generator_ColumnPropNameInRow="idUsuario" msprop:Generator_ColumnPropNameInTable="idUsuarioColumn" msprop:Generator_UserColumnName="idUsuario" type="xs:int" />
+              <xs:element name="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_UserColumnName="nombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_UserColumnName="apellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_OBTENER_DATOS_USUARIO" msprop:Generator_TableClassName="SP_OBTENER_DATOS_USUARIODataTable" msprop:Generator_TableVarName="tableSP_OBTENER_DATOS_USUARIO" msprop:Generator_RowChangedName="SP_OBTENER_DATOS_USUARIORowChanged" msprop:Generator_TablePropName="SP_OBTENER_DATOS_USUARIO" msprop:Generator_RowDeletingName="SP_OBTENER_DATOS_USUARIORowDeleting" msprop:Generator_RowChangingName="SP_OBTENER_DATOS_USUARIORowChanging" msprop:Generator_RowEvHandlerName="SP_OBTENER_DATOS_USUARIORowChangeEventHandler" msprop:Generator_RowDeletedName="SP_OBTENER_DATOS_USUARIORowDeleted" msprop:Generator_RowClassName="SP_OBTENER_DATOS_USUARIORow" msprop:Generator_UserTableName="SP_OBTENER_DATOS_USUARIO" msprop:Generator_RowEvArgName="SP_OBTENER_DATOS_USUARIORowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pwd" msprop:Generator_ColumnVarNameInTable="columnpwd" msprop:Generator_ColumnPropNameInRow="pwd" msprop:Generator_ColumnPropNameInTable="pwdColumn" msprop:Generator_UserColumnName="pwd" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SP_VERIFICAR_LOGIN" msprop:Generator_TableClassName="SP_VERIFICAR_LOGINDataTable" msprop:Generator_TableVarName="tableSP_VERIFICAR_LOGIN" msprop:Generator_RowChangedName="SP_VERIFICAR_LOGINRowChanged" msprop:Generator_TablePropName="SP_VERIFICAR_LOGIN" msprop:Generator_RowDeletingName="SP_VERIFICAR_LOGINRowDeleting" msprop:Generator_RowChangingName="SP_VERIFICAR_LOGINRowChanging" msprop:Generator_RowEvHandlerName="SP_VERIFICAR_LOGINRowChangeEventHandler" msprop:Generator_RowDeletedName="SP_VERIFICAR_LOGINRowDeleted" msprop:Generator_RowClassName="SP_VERIFICAR_LOGINRow" msprop:Generator_UserTableName="SP_VERIFICAR_LOGIN" msprop:Generator_RowEvArgName="SP_VERIFICAR_LOGINRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" msprop:Generator_UserColumnName="usuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pwd" msprop:Generator_ColumnVarNameInTable="columnpwd" msprop:Generator_ColumnPropNameInRow="pwd" msprop:Generator_ColumnPropNameInTable="pwdColumn" msprop:Generator_UserColumnName="pwd" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="facturasObraSocial" msprop:Generator_TableClassName="facturasObraSocialDataTable" msprop:Generator_TableVarName="tablefacturasObraSocial" msprop:Generator_TablePropName="facturasObraSocial" msprop:Generator_RowDeletingName="facturasObraSocialRowDeleting" msprop:Generator_RowChangingName="facturasObraSocialRowChanging" msprop:Generator_RowEvHandlerName="facturasObraSocialRowChangeEventHandler" msprop:Generator_RowDeletedName="facturasObraSocialRowDeleted" msprop:Generator_UserTableName="facturasObraSocial" msprop:Generator_RowChangedName="facturasObraSocialRowChanged" msprop:Generator_RowEvArgName="facturasObraSocialRowChangeEvent" msprop:Generator_RowClassName="facturasObraSocialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cantidad_Con_OS" msprop:Generator_ColumnVarNameInTable="columnCantidad_Con_OS" msprop:Generator_ColumnPropNameInRow="Cantidad_Con_OS" msprop:Generator_ColumnPropNameInTable="Cantidad_Con_OSColumn" msprop:Generator_UserColumnName="Cantidad_Con_OS" type="xs:int" minOccurs="0" />
+              <xs:element name="Cantidad_Sin_OS" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCantidad_Sin_OS" msprop:Generator_ColumnPropNameInRow="Cantidad_Sin_OS" msprop:Generator_ColumnPropNameInTable="Cantidad_Sin_OSColumn" msprop:Generator_UserColumnName="Cantidad_Sin_OS" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_ARTICULOS_COMBO_BOX" />
+      <xs:field xpath="mstns:idArticulo" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_ARTICULOS_GRILLA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_ARTICULOS_GRILLA" />
+      <xs:field xpath="mstns:idArticulo" />
+      <xs:field xpath="mstns:idTipoArticulo" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_ARTICULOS_POR_NOMBRE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_ARTICULOS_POR_NOMBRE" />
+      <xs:field xpath="mstns:idArticulo" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_CLIENTES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_CLIENTES" />
+      <xs:field xpath="mstns:dni" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_CLIENTES_CON_TARJETA_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_CLIENTES_CON_TARJETA" />
+      <xs:field xpath="mstns:dni" />
+      <xs:field xpath="mstns:nro_tarjeta" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_CLIENTES_POR_DNI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_CLIENTES_POR_DNI" />
+      <xs:field xpath="mstns:dni" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_DETALLES_POR_ID_FACTURA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_DETALLES_POR_ID_FACTURA" />
+      <xs:field xpath="mstns:idDetalle" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_FACTURA_POR_FECHA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_FACTURA_POR_FECHA" />
+      <xs:field xpath="mstns:idFactura" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_FACTURAS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_FACTURAS" />
+      <xs:field xpath="mstns:idFactura" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_TIPO_ARTICULOS_COMBO_BOX" />
+      <xs:field xpath="mstns:idTipoArticulo" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_TIPOS_USUARIO_COMBO_BOX" />
+      <xs:field xpath="mstns:idTipoUsuario" />
+    </xs:unique>
+    <xs:unique name="SP_CONSULTAR_USUARIOS_GRILLA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SP_CONSULTAR_USUARIOS_GRILLA" />
+      <xs:field xpath="mstns:idUsuario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
